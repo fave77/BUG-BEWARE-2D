@@ -37,10 +37,9 @@ gulp.task('minify-image', () => {
         .pipe(gulp.dest('./dist/images'))
 });
 
-/*optimize all the audio files*/
-gulp.task('minify-audio', () => {
+/*pipe all the audio files*/
+gulp.task('pipe-audio', () => {
     gulp.src('./src/audio/*.mp3')
-        .pipe()
         .pipe(gulp.dest('./dist/audio'));
 });
 
@@ -49,5 +48,5 @@ gulp.task('clean', () => del(['dist']));
 
 /*run the default task*/
 gulp.task('default', ['clean'], () => {
-    run_sequence('minify-html', 'minify-css', 'minify-js', 'minify-image');
+    run_sequence('minify-html', 'minify-css', 'minify-js', 'minify-image', 'pipe-audio');
 });
