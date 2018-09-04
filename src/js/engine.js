@@ -105,7 +105,7 @@ var Engine = (function(global) {
         allEnemies.forEach(function(enemy) {
             if(Math.abs(enemy.x - player.x) < 51 && Math.abs(enemy.y - player.y) == 12) {
                 document.querySelector('#collision').play();
-                generatePlayerLocation('collide');
+                generatePlayerLocation('collide', player);
             }
         });
     }

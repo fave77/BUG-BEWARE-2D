@@ -21,22 +21,24 @@ Enemy.prototype.render = function() {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
 };
 
-/* A Player constructor function defining the position & appearance
- * of a player instance.
+/* A Player constructor function defining the position, score,
+ * no. of lives & appearance of a player instance.
  */
 const Player = function(x, y) {
     this.sprite = null;
     this.x = x;
     this.y = y;
     this.sprite = 'images/char-boy.png';
+    this.score = 0;
+    this.lives = 3;
 };
 
 /* Updates the player's position and checks for edges to avoid.
  */
 Player.prototype.update = function() {
-    if(player.y <= -23) {
+    if(this.y <= -23) {
         document.querySelector('#success').play();
-        generatePlayerLocation('success');
+        generatePlayerLocation('success', this);
     }
     this.x = (this.x < 0) ? 0 : (this.x >= ctx.canvas.width ? ctx.canvas.width - 101 : this.x);
     this.y = (this.y < -23) ? -23 : (this.y >= ctx.canvas.height - 226 ? ctx.canvas.height - 226 : this.y);
@@ -98,11 +100,9 @@ setInterval(() => {
         allEnemies.push(enemy);
 }, 1000);
 
-/* A new player object is created with the property of score & lives.
+/* A new player object is instantiated.
  */
 let player = new Player(Math.floor(Math.random() * 5) * 101, 380);
-player.score = 0;
-player.lives = 3;
 
 /* An empty array for holding all the gems.
  */
@@ -208,7 +208,7 @@ function checkItem(item) {
 /* Generates the player location randomly after each collision with an enemy bug
  * or when successfully crosses the river.
  */
-function generatePlayerLocation(event) {
+function generatePlayerLocation(event, player) {
     const score = document.querySelector('#score'),
         hearts = document.querySelector('#hearts');
     if(event == 'success') {

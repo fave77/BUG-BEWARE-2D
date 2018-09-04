@@ -15,6 +15,22 @@
 - The player must collect all the **3 Pesticide Gems** to win.
 - When the number of lives become zero, the game is over.
 
+###### Installing & Running the game on your local machine
+
+First, clone this repository by typing the following command on your terminal:
+
+```
+git clone https://github.com/pbiswas101/BUG-BEWARE-2D
+```
+
+Next, navigate to the `dist` folder like so:
+
+```
+cd BUG-BEWAhttps://github.com/pbiswas101/BUG-BEWARE-2DRE-2D/dist/
+```
+
+Finally, open the `index.html` file of the `dist` folder on your browser for the running this game!
+
 ## PREVIEW
 
 ![](https://github.com/pbiswas101/BUG-BEWARE-2D/blob/master/assets/player-selection.png)
