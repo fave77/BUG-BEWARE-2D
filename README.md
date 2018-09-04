@@ -1,4 +1,3 @@
-requirement.png
 # BUG BEWARE 2D
 
 **BUG BEWARE 2D** is a classic browser-based online arcade game where the goal of the player (**you**) is to reach the water, without colliding into any one of the enemies (**bugs**) while also collecting items such as **Pesticide Gems** and extra **lives**!
