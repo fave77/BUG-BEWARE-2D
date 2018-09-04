@@ -29,7 +29,7 @@ Next, navigate to the `dist` folder like so:
 cd BUG-BEWARE-2D/dist/
 ```
 
-Finally, open the `index.html` file of the `dist` folder on your browser for the running this game!
+Finally, open the `index.html` file of the `dist` folder on your browser for running this game!
 
 ## PREVIEW
 
