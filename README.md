@@ -25,16 +25,15 @@
 
 [**LIVE LINK**][1]
 
-**MEMORY GAME v1.0** is based on [Material Design][2]; hence the design principles are implemented with the help of a modern responsive front-end framework viz. [Materialize][3].
+**MEMORY GAME v1.0** is implemented with the help of a modern responsive front-end framework viz. [Bootstrap][2].
 
-> This project is part of Udacity's [**Front-End Web Developer Nanodegree Program**][4]
+> This project is part of Udacity's [**Front-End Web Developer Nanodegree Program**][3]
 
 ## License
 
-The MIT License 2018 - [Priyabrata Biswas][5].
+The MIT License 2018 - [Priyabrata Biswas][4].
 
 [1]: https://bug-beware-2d.netlify.com/
-[2]: https://material.io/design/
-[3]: https://materializecss.com/
-[4]: https://in.udacity.com/course/front-end-web-developer-nanodegree--nd001
-[5]: http://github.com/pbiswas101
+[2]: https://getbootstrap.com/docs/4.1/layout/overview/
+[3]: https://in.udacity.com/course/front-end-web-developer-nanodegree--nd001
+[4]: http://github.com/pbiswas101
