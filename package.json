@@ -1,0 +1,32 @@
+{
+  "name": "bug-beware-2d",
+  "version": "1.0.0",
+  "description": "A classic arcade game featuring battle between humans and enemy-bugs!",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbiswas101/BUG-BEWARE-2D.git"
+  },
+  "keywords": [
+    "classic",
+    "arcade",
+    "video",
+    "game",
+    "bug-beware"
+  ],
+  "author": "Priyabrata Biswas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pbiswas101/BUG-BEWARE-2D/issues"
+  },
+  "homepage": "https://github.com/pbiswas101/BUG-BEWARE-2D#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-uglify-es": "^1.0.4",
+    "run-sequence": "^2.2.1"
+  }
+}

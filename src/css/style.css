@@ -1,0 +1,90 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    background: url(../images/background.png) no-repeat center fixed;
+    background-size: cover;
+    user-select: none;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 0.5em;
+}
+
+#score-panel {
+    position: absolute;
+    padding: 1em;
+    bottom: 0;
+    right: 0;
+    height: 18%;
+    text-align: left;
+    opacity: 0.8;
+    color: white;
+    background-color: black;
+    border-radius: 10%;
+}
+
+#score-panel img {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.5em;
+}
+
+.container {
+    margin-top: 5em;
+    padding: 2em 1em;
+    width: 40%;
+    opacity: 0.8;
+    color: white;
+    background-color: black;
+    border-radius: 10%;
+    transition-property: height;
+    transition-duration: 1s;
+}
+
+#play-button {
+    background-color: black;
+    border: none;
+    outline: none;
+}
+
+img {
+    cursor: pointer;
+}
+
+form {
+    text-align: justify;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+
+input {
+    width: 50%;
+}
+
+#submit-button {
+    display: none;
+}
+
+#modal-button {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1008px) {
+    .container {
+        width: 60%;
+    }
+}
