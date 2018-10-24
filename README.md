@@ -41,7 +41,7 @@ Finally, open the `index.html` file of the `dist` folder on your browser for run
 
 [**LIVE LINK**][1]
 
-**MEMORY GAME v1.0** is implemented with the help of a modern responsive front-end framework viz. [Bootstrap][2].
+**BUG BEWARE 2D** is implemented with the help of a modern responsive front-end framework viz. [Bootstrap][2].
 
 > This project is part of Udacity's [**Front-End Web Developer Nanodegree Program**][3]
 
