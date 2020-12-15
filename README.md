@@ -20,7 +20,7 @@
 First, clone this repository by typing the following command on your terminal:
 
 ```
-git clone https://github.com/pbiswas101/BUG-BEWARE-2D
+git clone https://github.com/fave77/BUG-BEWARE-2D
 ```
 
 Next, navigate to the `dist` folder like so:
@@ -33,9 +33,9 @@ Finally, open the `index.html` file of the `dist` folder on your browser for run
 
 ## PREVIEW
 
-![](https://github.com/pbiswas101/BUG-BEWARE-2D/blob/master/assets/player-selection.png)
+![](https://github.com/fave77/BUG-BEWARE-2D/blob/master/assets/player-selection.png)
 
-![](https://github.com/pbiswas101/BUG-BEWARE-2D/blob/master/assets/gameplay.png)
+![](https://github.com/fave77/BUG-BEWARE-2D/blob/master/assets/gameplay.png)
 
 ## OVERVIEW
 
@@ -52,4 +52,4 @@ The MIT License 2018 - [Priyabrata Biswas][4].
 [1]: https://bug-beware-2d.netlify.com/
 [2]: https://getbootstrap.com/docs/4.1/layout/overview/
 [3]: https://in.udacity.com/course/front-end-web-developer-nanodegree--nd001
-[4]: http://github.com/pbiswas101
+[4]: http://github.com/fave77
