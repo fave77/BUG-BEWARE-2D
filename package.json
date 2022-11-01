@@ -22,7 +22,7 @@
   "homepage": "https://github.com/pbiswas101/BUG-BEWARE-2D#readme",
   "devDependencies": {
     "del": "^3.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-clean-css": "^3.10.0",
     "gulp-htmlmin": "^4.0.0",
     "gulp-imagemin": "^4.1.0",
